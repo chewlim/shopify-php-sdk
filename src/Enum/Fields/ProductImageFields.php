@@ -11,7 +11,7 @@ class ProductImageFields extends AbstractObjectEnum
     const PRODUCT_ID = 'product_id';
     const VARIANT_IDS = 'variant_ids';
     const SRC = 'src';
-    const ALT = 'src';
+    const ALT = 'alt';
     const WIDTH = 'width';
     const HEIGHT = 'height';
     const UPDATED_AT = 'updated_at';

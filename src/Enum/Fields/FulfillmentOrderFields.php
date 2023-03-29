@@ -26,7 +26,7 @@ class FulfillmentOrderFields extends AbstractObjectEnum
             'status' => 'string',
             "supported_actions" => 'array',
             "destination" => 'DestinationLocation', // Probably need new fields
-            'line_items' => 'LineItem[]',
+            'line_items' => 'FulfillmentOrderLineItem[]',
             'fulfillment_service_handle' => 'string',
             "assigned_location" => 'AssignedLocation', // Probably need new fields
             "merchant_requests" => 'array', // Probably need new fields

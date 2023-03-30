@@ -8,6 +8,8 @@ class FulfillmentFields extends AbstractObjectEnum
     const ID = 'id';
     const LINE_ITEMS = 'line_items';
     const NOTIFY_CUSTOMER = 'notify_customer';
+    const TRACKING_INFO = 'tracking_info';
+    const LINE_ITEMS_BY_FULFILLMENT_ORDER = 'line_items_by_fulfillment_order';
     const ORDER_ID = 'order_id';
     const RECEIPT = 'receipt';
     const STATUS = 'status';
@@ -25,6 +27,8 @@ class FulfillmentFields extends AbstractObjectEnum
             'id' => 'integer',
             'line_items' => 'LineItem[]',
             'notify_customer' => 'boolean',
+            'tracking_info' => 'TrackingInfo',
+            'line_items_by_fulfillment_order' => 'LineItemByFulfillmentOrder[]',
             'order_id' => 'integer',
             'receipt' => "object",
             'status' => 'string',

@@ -52,6 +52,7 @@ class OrderFields extends AbstractObjectEnum
     const TAXES_INCLUDED = 'taxes_included';
     const TOKEN = 'token';
     const TOTAL_DISCOUNTS = 'total_discounts';
+    const DISCOUNT_APPLICATION = 'discount_applications';
     const TOTAL_LINE_ITEMS_PRICE = 'total_line_items_price';
     const TOTAL_PRICE = 'total_price';
     const TOTAL_PRICE_USD = 'total_price_usd';
@@ -112,6 +113,7 @@ class OrderFields extends AbstractObjectEnum
             'taxes_included' => 'boolean',
             'token' => 'string',
             'total_discounts' => 'string',
+            'discount_applications' => 'DiscountApplication[]',
             'total_line_items_price' => 'string',
             'total_price' => 'string',
             'total_price_usd' => 'string',
